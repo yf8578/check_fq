@@ -1,0 +1,18 @@
+错误: LengthMismatch { seq_len: 60, qual_len: 56, line_num: 4 }
+@SEQ_ID1
+GATTTGGGGTTCAAAGCAGTATCGATCAAATAGTAAATCCATTTGTTCAACTCACAGTTT
++
+!''*((((***+))%%%++)(%%%%).1***-+*''))**55CCF>>>>>>CCCCC
+---
+错误: LengthMismatch { seq_len: 52, qual_len: 60, line_num: 8 }
+@SEQ_ID2
+GATTTGGGGTTCAAAGCAGTATCGATCAAATAGTAAATCCATTTGTTCAACT
++
+!''*((((***+))%%%++)(%%%%).1***-+*''))**55CCF>>>>>>CCCCCCC65
+---
+错误: InvalidHeader(9)
+SEQ_ID3
+GATTTGGGGTTCAAAGCAGTATCGATCAAATAGTAAATCCATTTGTTCAACTCACAGTTT
++
+!''*((((***+))%%%++)(%%%%).1***-+*''))**55CCF>>>>>>CCCCCCC65
+---
