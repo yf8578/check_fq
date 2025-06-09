@@ -1,5 +1,4 @@
 # Check fastq--Rust
----
 When I was a senior student in college, my first task during my company internship was to write a script to check fastq format.  
 At that time, I used Python and wrote a simple script. However, I later found that Python was too slow, especially when processing large files. The task was eventually left unresolved. Now I want to re-implement this functionality using Rust.  
 Expected features:    
